@@ -1,0 +1,19 @@
+{
+  "name": "tenant-session-onboarding",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/tenant_onboarding.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/tenant_policy.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
